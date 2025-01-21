@@ -40,21 +40,40 @@ header .profilePic img {
 }
 
 input{
-    margin: 30px;
-    border: 0;
-    border-bottom: 1px solid gray;
+    border: 1;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+    border-width: 3px;
     outline: none;
-    padding: 10px 0;
+    padding: 10px ;
+    border-radius: 50px;
+    width: 150px;
+}
+
+.itams{
+    display: flex;
+    justify-content: space-between;
 }
 
 button{
     background-color: rgb(40, 173, 250);
     color: white;
-    padding: 7px;
+    padding: 9px;
     margin: 30px;
     width: 80px;
     border-radius: 50px;
     border: none;
+}
+
+.document{
+    background-color: rgb(244, 37, 30);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    width: 150px;
+    height: 40px;
 }
 
 footer img {
