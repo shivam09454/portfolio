@@ -28,8 +28,17 @@ header .introContainer .intro {
 }
 
 header .introContainer .intro h3 samp{
-    color: brown;
+    color: rgb(238, 10, 10);
     
+}
+
+header .introContainer .intro h3{
+    color: rgba(1, 7, 7, 0.973);
+}
+
+header .introContainer .intro h6 .a2{
+    color: rgb(230, 7, 122);
+    font-weight: 500px;
 }
 
 header .profilePic img {
@@ -68,9 +77,9 @@ button{
 }
 
 .document{
-    background-color: rgb(244, 37, 30);
+    background-color: rgb(45, 35, 240);
     color: white;
-    padding: 10px;
+    padding: 9px;
     margin: 20px;
     width: 150px;
     height: 40px;
@@ -81,4 +90,3 @@ footer img {
     width: 40px;
     height: 40px;
 }
-
